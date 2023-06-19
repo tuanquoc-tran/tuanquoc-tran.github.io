@@ -229,7 +229,7 @@ a:hover {
   }
 }
 .header-bimg-fullw {
-  background-image: url(../media/profile/user-bg-invert.jpg);
+  background-image: url(../media/profile/user-background.jpg);
   background-size: cover;
   padding-left: 15px;
   padding-right: 15px;
@@ -251,7 +251,7 @@ a:hover {
 }
 @media (min-width: 768px) {
   .header-bimg-fullw {
-    color: #FAFAFA;
+    color: #cebd29;
   }
 }
 @media (min-width: 1200px) {
@@ -948,4 +948,22 @@ to {
   .cv-section {
     padding: 44px 0;
   }
+}
+
+.tab {
+  display: inline-block;
+  padding-left: 60px; /* Adjust the value to control the indentation */
+}
+
+.tab2 {
+  display: inline-block;
+  padding-left: 120px; /* Adjust the value to control the indentation */
+}
+
+.left-element {
+  text-align: left;
+}
+
+.right-element {
+  text-align: right;
 }
