@@ -51,7 +51,7 @@ gulp.task( 'webserver', function() { connect.server({ livereload: true, port: 80
 gulp.task( 'watch', function() {
   gulp.watch( 'less/style.less', ['style'] );
   gulp.watch( 'less/themes/themes.less', ['themes'] );
-  gulp.watch( 'less/demo.less', ['demo'] );
+  // gulp.watch( 'less/demo.less', ['demo'] );
   gulp.watch( 'js/*.js', ['reload'] );
   gulp.watch( 'index.html', ['reload'] );
 })
